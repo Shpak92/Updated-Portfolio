@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  padding: 0;
+  background: #536976;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+
+.box{
+  width:450px;
+  background: rgba(0, 0, 0,0.4);
+  padding: 40px;
+  text-align:center;
+  margin:auto;
+  margin-top:5%;
+  color:white;
+}
+.box-img{
+  border-radius: 50%;
+  width:330px;
+  height:270px;
+}
+
+#portfolioUpload{
+  visibility: hidden;
+}
+.block {
+  background: rgba(0, 0, 0,0.4);
+  padding: 30px;
+  margin-top: 50px;
+  width:550px;
+  margin-left: 35%;
+}
+.port-image {
+  margin: 20px auto;
+  height:350px;
+  width: 350px;
+}
