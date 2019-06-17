@@ -26,13 +26,31 @@ body{
 }
 .block {
   background: rgba(0, 0, 0,0.4);
-  padding: 30px;
+  padding: 40px;
   margin-top: 50px;
-  width:550px;
-  margin-left: 35%;
+  width:650px;
+  text-align:center;
+  color:white;
+  align-content: center;
+  margin-left: 220px;
+
+
 }
 .port-image {
   margin: 20px auto;
   height:350px;
   width: 350px;
+
+}
+.portfolio-textbox{
+  border-style: solid;
+  border-width: medium; 
+}
+
+.portfolio-name{  
+  text-align: center;
+
+}
+.skillsList{
+  list-style: none
 }
