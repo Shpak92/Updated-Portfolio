@@ -1,6 +1,7 @@
 body{
   margin:0;
   padding: 0;
+
   background: #536976;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -8,17 +9,19 @@ body{
 
 .box{
   width:450px;
-  background: rgba(0, 0, 0,0.4);
   padding: 40px;
   text-align:center;
   margin:auto;
   margin-top:5%;
   color:white;
+  font-weight: bold;
+
+ 
 }
 .box-img{
   border-radius: 50%;
-  width:350px;
-  height:270px;
+  width:270px;
+  height:200px;
 }
 
 #portfolioUpload{
@@ -32,7 +35,8 @@ body{
   text-align:center;
   color:white;
   align-content: center;
-  margin-left: 220px;
+  margin-left: 30% ;
+  
 
 
 }
@@ -50,4 +54,21 @@ body{
 .portfolio-name{  
   text-align: center;
 
+}
+
+#skyline{
+  background-image: url(/assets/photos/Skyline.jpg);
+  background-color: #cccccc;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#profilePhoto{  
+  border-radius: 20%;
+  width:270px;
+  height:200px;
+  margin-left:40px;
 }
