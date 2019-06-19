@@ -57,7 +57,7 @@ body{
 }
 
 #skyline{
-  background-image:url("../photos/skyline.jpg");
+  background-image:url("/skyline.jpg");
   background-color: #cccccc;
   height: 650px;
   background-position: center;
